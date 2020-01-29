@@ -1,0 +1,38 @@
+.mkd-extra-wh .mkd-working-hours-holder .mkd-wh-text-holder {
+    margin-bottom: 23px;
+}
+
+.mkd-extra-wh .mkd-working-hours-holder .mkd-wh-item {
+    padding: 17px 2px;
+}
+
+.mkd-extra-wh .mkd-working-hours-holder .mkd-wh-item:last-child {
+    padding-bottom: 10px;
+}
+
+body:not(.page-id-3285) .mkd-smooth-transition-loader {
+    display: none;
+}
+
+.page-id-1740 .mkd-content {
+    background-color: #f7f7f7;
+}
+
+.page-id-1740 .mkd-title {
+    z-index: 0;
+    background-color: transparent;
+}
+
+.page-id-1740 .mkd-timetable-row .wpb_wrapper {
+    position: relative;
+}
+
+.page-id-1740 .mkd-timetable-row .events_categories_filter {
+    position: absolute;
+    top: -116px;
+    right: 0;
+}
+
+.mkd-vertical-align-containers .mkd-position-center:before, .mkd-vertical-align-containers .mkd-position-left:before, .mkd-vertical-align-containers .mkd-position-right:before {
+    margin-right: 0;
+}
