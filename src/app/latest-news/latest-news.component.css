@@ -1,0 +1,32 @@
+owl-carousel-latest {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1;
+}
+.owl-carousel .entry,
+.owl-carousel .entry.entry-grid {
+  margin-bottom: 0;
+}
+.entry.entry-grid {
+  margin-bottom: 30px;
+}
+.entry .entry-media {
+  position: relative;
+  margin-bottom: 25px;
+  background-color: #0069b0;
+}
+.entry .entry-media .entry-meta {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 20px;
+  color: #eaeaea;
+}
+.entry.entry-grid .entry-title {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
