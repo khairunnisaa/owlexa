@@ -70,7 +70,7 @@ ngb-carousel {
 }
 
 .carousel-inner {
-  overflow: hidden;
+  overflow: visible;
 }
 
 .carousel-item {
