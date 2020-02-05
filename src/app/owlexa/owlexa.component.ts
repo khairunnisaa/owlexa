@@ -1,14 +1,13 @@
 import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-about-owlexa',
-  templateUrl: './about-owlexa.component.html',
-  styleUrls: ['./about-owlexa.component.css']
+  selector: 'app-owlexa',
+  templateUrl: './owlexa.component.html',
+  styleUrls: ['./owlexa.component.css']
 })
-  export class AboutOwlexaComponent implements OnInit {
+export class OwlexaComponent implements OnInit {
 
   constructor() { }
-
   @Input() judul: any = 'Tentang Owlexa';
   @Input() smalltext = 'Owlexa sebagai Unit Bisnis';
   // tslint:disable-next-line:max-line-length
@@ -25,8 +24,7 @@ import {Component, Input, OnInit} from '@angular/core';
     'Didukung oleh sistem dan teknologi yang handal serta sumber daya manusia' +
     ' berpengalaman di bidangnya, Owlexa dapat memberikan layanan administrasi' +
     ' kesehatan yang optimal, efisien, cepat dan akurat serta pelayanan terbaik.';
-      @Input() image='<img src="assets/images/logo_kecil_resize.jpg">';
-
+  @Input() image ='<img src="assets/images/logo_kecil_resize.jpg">';
 
   ngOnInit() {
   }

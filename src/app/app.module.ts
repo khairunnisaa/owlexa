@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
@@ -18,6 +20,10 @@ import { LogoAndInformationComponent } from './logo-and-information/logo-and-inf
 import { MapComponent } from './map/map.component';
 import { LintasartaComponent } from './lintasarta/lintasarta.component';
 import { AboutOwlexaComponent } from './about-owlexa/about-owlexa.component';
+import { OwlexaComponent } from './owlexa/owlexa.component';
+import { StrukturOrganisasiComponent } from './struktur-organisasi/struktur-organisasi.component';
+import { FaqComponent } from './faq/faq.component';
+import { PendaftaranProviderBaruComponent } from './pendaftaran-provider-baru/pendaftaran-provider-baru.component';
 declare var $: any;
 console.log(`jQuery version: ${$.fn.jquery}`);
 
@@ -35,14 +41,20 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     LogoAndInformationComponent,
     MapComponent,
     LintasartaComponent,
-    AboutOwlexaComponent
+    AboutOwlexaComponent,
+    OwlexaComponent,
+    StrukturOrganisasiComponent,
+    FaqComponent,
+    PendaftaranProviderBaruComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+    NgxPageScrollCoreModule,
+    NgxPageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]
