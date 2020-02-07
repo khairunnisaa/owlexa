@@ -87,7 +87,7 @@
     <div class="form-group row">
       <label for="PostalCode" class="col-sm-2 col-form-label">Postal Code</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" id="PostalCode" placeholder="Postal Code">
+        <input type="number" class="form-control" id="PostalCode" placeholder="Postal Code">
       </div>
     </div>
 
@@ -118,18 +118,6 @@
     </div>
 
     <div class="form-group row">
-      <label for="Country" class="col-sm-2 col-form-label">Country</label>
-      <div class="col-sm-10">
-        <select class="custom-select" id="Country">
-          <option selected>Open this select your country</option>
-          <option value="Indonesia">Indonesia</option>
-          <option value="Malaysia">Malaysia</option>
-          <option value="Singapura">Singapura</option>
-        </select>
-      </div>
-    </div>
-
-    <div class="form-group row">
       <label for="NoNPWP" class="col-sm-2 col-form-label">No NPWP</label>
       <div class="col-sm-10">
         <input type="text" class="col-sm-2 col-form-label" id="nomer_mpwp" placeholder="Nomer MPWP">
@@ -137,13 +125,351 @@
       </div>
     </div>
 
-
     <div class="form-group row">
-      <label for="ProviderName" class="col-sm-2 col-form-label">Provider Name</label>
+      <label for="TDP" class="col-sm-2 col-form-label">TDP</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" id="ProviderName" placeholder="Provider Name">
+        <input type="text" class="col-sm-2 col-form-label" id="nomer_TDP" placeholder="Nomer TDP">
+        <input type="file" class="col-sm-2 col-form-label" id="TDP">
       </div>
     </div>
+
+    <div class="form-group row">
+      <label for="SuratIzinOperasional" class="col-sm-2 col-form-label">Surat Izin Operasional</label>
+      <div class="col-sm-10">
+        <input type="text" class="col-sm-2 col-form-label" id="nomer_TDP" placeholder="Nomer TDP">
+        <input type="file" class="col-sm-2 col-form-label" id="SuratIzinOperasional">
+      </div>
+    </div>
+    
+
+    <div class="form-group row">
+      <label for="SoftcopyTarif " class="col-sm-2 col-form-label">Softcopy Tarif</label>
+      <div class="col-sm-10">
+        <input type="file" class="col-sm-2 col-form-label" id="SoftcopyTarif ">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="SuratIzinPenetapanKelasRS" class="col-sm-2 col-form-label">Surat Izin Penetapan Kelas RS</label>
+      <div class="col-sm-10">
+        <input type="file" class="col-sm-2 col-form-label" id="SuratIzinPenetapanKelasRS">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="SoftcopyDaftarObat" class="col-sm-2 col-form-label">Softcopy Daftar Obat</label>
+      <div class="col-sm-10">
+        <input type="file" class="col-sm-2 col-form-label" id="SoftcopyDaftarObat">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="CompanyProfile" class="col-sm-2 col-form-label">Company Profile</label>
+      <div class="col-sm-10">
+        <input type="file" class="col-sm-2 col-form-label" id="CompanyProfile">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="Telephone" class="col-sm-2 col-form-label">Telephone</label>
+      <div class="col-sm-10">
+        <input type="number" class="form-control" id="Telephone" placeholder="Telephone">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="Fax" class="col-sm-2 col-form-label">Fax</label>
+      <div class="col-sm-10">
+        <input type="number" class="form-control" id="Fax" placeholder="Fax">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="Email" class="col-sm-2 col-form-label">Nama, No Tlp & Email Marketing</label>
+      <div class="col-sm-10">
+        <input type="number" class="form-control" id="Nama" placeholder="Nama">
+        <input type="number" class="form-control" id="NoTlp" placeholder="No Telephone">
+        <input type="number" class="form-control" id="Email" placeholder="E-mail">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="Email" class="col-sm-2 col-form-label">Nama, No Tlp & Email Marketing</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="NamaMarketing" placeholder="Nama">
+        <input type="number" class="form-control" id="NoTlpMarketing" placeholder="No Telephone">
+        <input type="email" class="form-control" id="EmailMarketing" placeholder="E-mail Marketing">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="EmailFinance" class="col-sm-2 col-form-label">Nama, No Tlp & Email Finance</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="NamaFinace" placeholder="Nama">
+        <input type="number" class="form-control" id="NoTlpFinance" placeholder="No Telephone">
+        <input type="number" class="form-control" id="EmailFinance" placeholder="E-mail Finance">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="EmailIt" class="col-sm-2 col-form-label">Nama, No Tlp & Email IT</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="NamaIT" placeholder="Nama">
+        <input type="number" class="form-control" id="NoTlpIT" placeholder="No Telephone">
+        <input type="number" class="form-control" id="EmailIt" placeholder="E-mail IT">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="EmailIt" class="col-sm-2 col-form-label">Nama, No Tlp & Email IT</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="NamaIT" placeholder="Nama">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="EmailIt" class="col-sm-2 col-form-label">Nama, No Tlp & Email IT</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="NamaIT" placeholder="Nama">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="Website" class="col-sm-2 col-form-label">Website</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="Website" placeholder="Website">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="NomorTelpContactPerson" class="col-sm-2 col-form-label">Nomor Telp Contact Person</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="NomorTelpContactPerson" placeholder="Nomor Telp Contact Person">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="Longitude" class="col-sm-2 col-form-label">Longitude</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="Longitude" placeholder="Longitude">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="Latitude" class="col-sm-2 col-form-label">Latitude</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="Latitude" placeholder="Latitude">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="JasaLayananOwlexa" class="col-sm-2 col-form-label">Jasa Layanan Owlexa</label>
+      <div class="col-sm-10">
+        <div class="form-group">
+          <div class="form-check">
+            <input class="" type="checkbox" id="Indemnity" value="Indemnity">
+            <label class="" for="Indemnity">Indemnity</label>&nbsp;&nbsp;
+
+            <input class="" type="checkbox" id="SemiManagedCare" value="Semi Managed Care">
+            <label class="" for="SemiManagedCare">Semi Managed Care</label>&nbsp;&nbsp;
+
+            <input class="" type="checkbox" id="ManagedCare" value="Managed Care">
+            <label class="" for="ManagedCare">ManagedCare</label>&nbsp;&nbsp;
+
+            <input class="" type="checkbox" id="OptimalisasiBPJS" value="Optimalisasi BPJS">
+            <label class="" for="OptimalisasiBPJS">Optimalisasi BPJS</label>&nbsp;&nbsp;
+
+            <input class="" type="checkbox" id="TechnologyOnly" value="Technology Only">
+            <label class="" for="TechnologyOnly">Technology Only</label>&nbsp;&nbsp;
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Layanan VIP</label>
+      <div class="col-sm-10">
+        <div class="form-group">
+          <div class="form-check">
+            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <label class="">
+              Bersedia
+            </label>&nbsp;&nbsp;
+
+            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <label class="">
+              Tidak Bersedia
+            </label>&nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Bekerjasama dengan BPJS</label>
+      <div class="col-sm-10">
+        <div class="form-group">
+          <div class="form-check">
+            <input class="" type="radio" name="BPJS" id="YA" value="YA" checked>
+            <label class="">
+              YA
+            </label>&nbsp;&nbsp;
+
+            <input class="" type="radio" name="BPJS" id="Tidak" value="Tidak" checked>
+            <label class="">
+              TIDAK
+            </label>&nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Jaringan Internet</label>
+      <div class="col-sm-10">
+        <div class="form-group">
+          <div class="form-check">
+            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <label class="">
+              Bersedia
+            </label>&nbsp;&nbsp;
+
+            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <label class="">
+              Tidak Bersedia
+            </label>&nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Diskon</label>
+      <div class="col-sm-10">
+        <div class="form-group">
+          <div class="form-check">
+            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <label class="">
+              Bersedia
+            </label>&nbsp;&nbsp;
+
+            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <label class="">
+              Tidak Bersedia
+            </label>&nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Kesepakatan Harga</label>
+      <div class="col-sm-10">
+        <div class="form-group">
+          <div class="form-check">
+            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <label class="">
+              Bersedia
+            </label>&nbsp;&nbsp;
+
+            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <label class="">
+              Tidak Bersedia
+            </label>&nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Sistem Informasi Rumah Sakit (SIM RS)</label>
+      <div class="col-sm-10">
+        <div class="form-group">
+          <div class="form-check">
+            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <label class="">
+              Bersedia
+            </label>&nbsp;&nbsp;
+
+            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <label class="">
+              Tidak Bersedia
+            </label>&nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Bersedia melakukan bridging</label>
+      <div class="col-sm-10">
+        <div class="form-group">
+          <div class="form-check">
+            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <label class="">
+              Bersedia
+            </label>&nbsp;&nbsp;
+
+            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <label class="">
+              Tidak Bersedia
+            </label>&nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Bersedia melakukan digital claim (e-claim)</label>
+      <div class="col-sm-10">
+        <div class="form-group">
+          <div class="form-check">
+            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <label class="">
+              Bersedia
+            </label>&nbsp;&nbsp;
+
+            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <label class="">
+              Tidak Bersedia
+            </label>&nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Bersedia melakukan pelayanan selama PKS dalam proses</label>
+      <div class="col-sm-10">
+        <div class="form-group">
+          <div class="form-check">
+            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <label class="">
+              Bersedia
+            </label>&nbsp;&nbsp;
+
+            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <label class="">
+              Tidak Bersedia
+            </label>&nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="SuratPermintaanKerjasamadenganOwlexaHealthcare" class="col-sm-2 col-form-label">Surat Permintaan
+        Kerjasama dengan Owlexa Healthcare</label>
+      <div class="col-sm-10">
+        <div class="form-group">
+          <div class="col-sm-10">
+            <input type="file" class="col-sm-2 col-form-label" id="SuratPermintaanKerjasamadenganOwlexaHealthcare">
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <div class="form-group row">
       <div class="col-sm-10">
