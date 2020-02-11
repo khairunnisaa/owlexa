@@ -6,16 +6,22 @@ import { LintasartaComponent } from './lintasarta/lintasarta.component';
 import { StrukturOrganisasiComponent} from './struktur-organisasi/struktur-organisasi.component';
 import {FaqComponent} from './faq/faq.component';
 import {PendaftaranProviderBaruComponent} from './pendaftaran-provider-baru/pendaftaran-provider-baru.component';
+import {PromoComponent} from './promo/promo.component';
+import {KontakComponent} from './kontak/kontak.component';
+import {KarirComponent} from './karir/karir.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'owlexa', component: OwlexaComponent },
-  { path: 'lintasarta', component: LintasartaComponent },
-  { path: 'struktur-organisasi', component: StrukturOrganisasiComponent },
-  { path: 'faq', component: FaqComponent},
-  { path: 'provider-baru', component: PendaftaranProviderBaruComponent},
+  { path: 'owlexa/owlexa', component: OwlexaComponent },
+  { path: 'owlexa/lintasarta', component: LintasartaComponent },
+  { path: 'owlexa/struktur-organisasi', component: StrukturOrganisasiComponent },
+  { path: 'owlexa/faq', component: FaqComponent},
+  { path: 'owlexa/provider-baru', component: PendaftaranProviderBaruComponent},
+  { path: 'owlexa/promo', component: PromoComponent},
+  { path: 'owlexa/kontak', component: KontakComponent},
+  { path: 'owlexa/karir', component: KarirComponent},
 
 ];
 

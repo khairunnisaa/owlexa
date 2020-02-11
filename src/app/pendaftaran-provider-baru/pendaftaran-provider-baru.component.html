@@ -121,7 +121,7 @@
       <label for="NoNPWP" class="col-sm-2 col-form-label">No NPWP</label>
       <div class="col-sm-10">
         <input type="text" class="col-sm-2 col-form-label" id="nomer_mpwp" placeholder="Nomer MPWP">
-        <input type="file" class="col-sm-2 col-form-label" id="NoNPWP">
+        <input type="file" class="col-sm-3 col-form-label" id="NoNPWP">
       </div>
     </div>
 
@@ -129,7 +129,7 @@
       <label for="TDP" class="col-sm-2 col-form-label">TDP</label>
       <div class="col-sm-10">
         <input type="text" class="col-sm-2 col-form-label" id="nomer_TDP" placeholder="Nomer TDP">
-        <input type="file" class="col-sm-2 col-form-label" id="TDP">
+        <input type="file" class="col-sm-3 col-form-label" id="TDP">
       </div>
     </div>
 
@@ -137,36 +137,36 @@
       <label for="SuratIzinOperasional" class="col-sm-2 col-form-label">Surat Izin Operasional</label>
       <div class="col-sm-10">
         <input type="text" class="col-sm-2 col-form-label" id="nomer_TDP" placeholder="Nomer TDP">
-        <input type="file" class="col-sm-2 col-form-label" id="SuratIzinOperasional">
+        <input type="file" class="col-sm-3 col-form-label" id="SuratIzinOperasional">
       </div>
     </div>
-    
+
 
     <div class="form-group row">
       <label for="SoftcopyTarif " class="col-sm-2 col-form-label">Softcopy Tarif</label>
       <div class="col-sm-10">
-        <input type="file" class="col-sm-2 col-form-label" id="SoftcopyTarif ">
+        <input type="file" class="col-sm-3 col-form-label" id="SoftcopyTarif ">
       </div>
     </div>
 
     <div class="form-group row">
       <label for="SuratIzinPenetapanKelasRS" class="col-sm-2 col-form-label">Surat Izin Penetapan Kelas RS</label>
       <div class="col-sm-10">
-        <input type="file" class="col-sm-2 col-form-label" id="SuratIzinPenetapanKelasRS">
+        <input type="file" class="col-sm-3 col-form-label" id="SuratIzinPenetapanKelasRS">
       </div>
     </div>
 
     <div class="form-group row">
       <label for="SoftcopyDaftarObat" class="col-sm-2 col-form-label">Softcopy Daftar Obat</label>
       <div class="col-sm-10">
-        <input type="file" class="col-sm-2 col-form-label" id="SoftcopyDaftarObat">
+        <input type="file" class="col-sm-3 col-form-label" id="SoftcopyDaftarObat">
       </div>
     </div>
 
     <div class="form-group row">
       <label for="CompanyProfile" class="col-sm-2 col-form-label">Company Profile</label>
       <div class="col-sm-10">
-        <input type="file" class="col-sm-2 col-form-label" id="CompanyProfile">
+        <input type="file" class="col-sm-3 col-form-label" id="CompanyProfile">
       </div>
     </div>
 
@@ -292,12 +292,12 @@
       <div class="col-sm-10">
         <div class="form-group">
           <div class="form-check">
-            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <input class="" type="radio" name="vip" id="ya_vip" value="Bersedia" checked>
             <label class="">
               Bersedia
             </label>&nbsp;&nbsp;
 
-            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <input class="" type="radio" name="vip" id="tidak_vip" value="Tidak Bersedia" checked>
             <label class="">
               Tidak Bersedia
             </label>&nbsp;&nbsp;
@@ -311,12 +311,12 @@
       <div class="col-sm-10">
         <div class="form-group">
           <div class="form-check">
-            <input class="" type="radio" name="BPJS" id="YA" value="YA" checked>
+            <input class="" type="radio" name="BPJS" id="ya_bpjs" value="YA" checked>
             <label class="">
               YA
             </label>&nbsp;&nbsp;
 
-            <input class="" type="radio" name="BPJS" id="Tidak" value="Tidak" checked>
+            <input class="" type="radio" name="BPJS" id="tidak_bpjs" value="Tidak" checked>
             <label class="">
               TIDAK
             </label>&nbsp;&nbsp;
@@ -330,14 +330,19 @@
       <div class="col-sm-10">
         <div class="form-group">
           <div class="form-check">
-            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <input class="" type="radio" name="internet" id="stabil" value="Stabil" checked>
             <label class="">
-              Bersedia
+              Stabil
             </label>&nbsp;&nbsp;
 
-            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <input class="" type="radio" name="internet" id="tidak_stabil" value="Tidak Stabil" checked>
             <label class="">
-              Tidak Bersedia
+              Tidak Stabil
+            </label>&nbsp;&nbsp;
+
+            <input class="" type="radio" name="internet" id="tdak_ada_jaringan" value="Tidak Ada Jaringan" checked>
+            <label class="">
+              Tidak Ada Jaringan
             </label>&nbsp;&nbsp;
           </div>
         </div>
@@ -345,21 +350,9 @@
     </div>
 
     <div class="form-group row">
-      <label class="col-sm-2 col-form-label">Diskon</label>
+      <label for="Website" class="col-sm-2 col-form-label">Diskon</label>
       <div class="col-sm-10">
-        <div class="form-group">
-          <div class="form-check">
-            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
-            <label class="">
-              Bersedia
-            </label>&nbsp;&nbsp;
-
-            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
-            <label class="">
-              Tidak Bersedia
-            </label>&nbsp;&nbsp;
-          </div>
-        </div>
+        <input type="number" class="form-control" id="diskon" placeholder="Diskon %">
       </div>
     </div>
 
@@ -368,12 +361,12 @@
       <div class="col-sm-10">
         <div class="form-group">
           <div class="form-check">
-            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <input class="" type="radio" name="kesepakatan_harga" id="ya_sepakat" value="Bersedia" checked>
             <label class="">
               Bersedia
             </label>&nbsp;&nbsp;
 
-            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <input class="" type="radio" name="kesepakatan_harga" id="tidak_sepakat" value="Tidak Bersedia" checked>
             <label class="">
               Tidak Bersedia
             </label>&nbsp;&nbsp;
@@ -387,14 +380,14 @@
       <div class="col-sm-10">
         <div class="form-group">
           <div class="form-check">
-            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <input class="" type="radio" name="simrs" id="simrs_ya" value="Ya" checked>
             <label class="">
-              Bersedia
+              Ya
             </label>&nbsp;&nbsp;
 
-            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <input class="" type="radio" name="simrs" id="simrs_tidak" value="Tidak" checked>
             <label class="">
-              Tidak Bersedia
+              Tidak
             </label>&nbsp;&nbsp;
           </div>
         </div>
@@ -406,14 +399,14 @@
       <div class="col-sm-10">
         <div class="form-group">
           <div class="form-check">
-            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <input class="" type="radio" name="bridging" id="ya_bridging" value="Ya" checked>
             <label class="">
-              Bersedia
+              Ya
             </label>&nbsp;&nbsp;
 
-            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <input class="" type="radio" name="bridging" id="tidak_bridging" value="Tidak" checked>
             <label class="">
-              Tidak Bersedia
+              Tidak
             </label>&nbsp;&nbsp;
           </div>
         </div>
@@ -425,14 +418,14 @@
       <div class="col-sm-10">
         <div class="form-group">
           <div class="form-check">
-            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <input class="" type="radio" name="claim" id="claim_ya" value="Ya" checked>
             <label class="">
-              Bersedia
+              Ya
             </label>&nbsp;&nbsp;
 
-            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <input class="" type="radio" name="claim" id="claim_tidak" value="Tidak" checked>
             <label class="">
-              Tidak Bersedia
+              Tidak
             </label>&nbsp;&nbsp;
           </div>
         </div>
@@ -444,14 +437,14 @@
       <div class="col-sm-10">
         <div class="form-group">
           <div class="form-check">
-            <input class="" type="radio" name="vip" id="Bersedia" value="Bersedia" checked>
+            <input class="" type="radio" name="pks" id="pks_ya" value="Ya" checked>
             <label class="">
-              Bersedia
+              Ya
             </label>&nbsp;&nbsp;
 
-            <input class="" type="radio" name="vip" id="TidakBersedia" value="Tidak Bersedia" checked>
+            <input class="" type="radio" name="pks" id="pks_tidak" value="Tidak" checked>
             <label class="">
-              Tidak Bersedia
+              Tidak
             </label>&nbsp;&nbsp;
           </div>
         </div>
@@ -464,7 +457,7 @@
       <div class="col-sm-10">
         <div class="form-group">
           <div class="col-sm-10">
-            <input type="file" class="col-sm-2 col-form-label" id="SuratPermintaanKerjasamadenganOwlexaHealthcare">
+            <input type="file" class="col-sm-4 col-form-label" id="SuratPermintaanKerjasamadenganOwlexaHealthcare">
           </div>
         </div>
       </div>

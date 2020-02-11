@@ -24,6 +24,9 @@ import { OwlexaComponent } from './owlexa/owlexa.component';
 import { StrukturOrganisasiComponent } from './struktur-organisasi/struktur-organisasi.component';
 import { FaqComponent } from './faq/faq.component';
 import { PendaftaranProviderBaruComponent } from './pendaftaran-provider-baru/pendaftaran-provider-baru.component';
+import { PromoComponent } from './promo/promo.component';
+import { KontakComponent } from './kontak/kontak.component';
+import { KarirComponent } from './karir/karir.component';
 declare var $: any;
 console.log(`jQuery version: ${$.fn.jquery}`);
 
@@ -45,7 +48,10 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     OwlexaComponent,
     StrukturOrganisasiComponent,
     FaqComponent,
-    PendaftaranProviderBaruComponent
+    PendaftaranProviderBaruComponent,
+    PromoComponent,
+    KontakComponent,
+    KarirComponent
   ],
   imports: [
     BrowserModule,
