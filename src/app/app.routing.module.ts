@@ -9,6 +9,11 @@ import {PendaftaranProviderBaruComponent} from './pendaftaran-provider-baru/pend
 import {PromoComponent} from './promo/promo.component';
 import {KontakComponent} from './kontak/kontak.component';
 import {KarirComponent} from './karir/karir.component';
+import {KonsultasiDokterComponent} from './konsultasi-dokter/konsultasi-dokter.component';
+import {KlienBerhargaComponent} from './klien-berharga/klien-berharga.component';
+import {ArtikelComponent} from './artikel/artikel.component';
+import {ArtikelDetailComponent} from './artikel-detail/artikel-detail.component';
+
 
 
 const routes: Routes = [
@@ -22,6 +27,11 @@ const routes: Routes = [
   { path: 'owlexa/promo', component: PromoComponent},
   { path: 'owlexa/kontak', component: KontakComponent},
   { path: 'owlexa/karir', component: KarirComponent},
+  { path: 'owlexa/konsultasi-dokter', component: KonsultasiDokterComponent},
+  { path: 'owlexa/klien-berharga', component: KlienBerhargaComponent},
+  { path: 'owlexa/artikel', component: ArtikelComponent},
+  { path: 'owlexa/artikel-detail', component: ArtikelDetailComponent},
+
 
 ];
 

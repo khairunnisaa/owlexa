@@ -27,6 +27,11 @@ import { PendaftaranProviderBaruComponent } from './pendaftaran-provider-baru/pe
 import { PromoComponent } from './promo/promo.component';
 import { KontakComponent } from './kontak/kontak.component';
 import { KarirComponent } from './karir/karir.component';
+import { KonsultasiDokterComponent } from './konsultasi-dokter/konsultasi-dokter.component';
+import { KlienBerhargaComponent } from './klien-berharga/klien-berharga.component';
+import { ArtikelComponent } from './artikel/artikel.component';
+import { ArtikelDetailComponent } from './artikel-detail/artikel-detail.component';
+
 declare var $: any;
 console.log(`jQuery version: ${$.fn.jquery}`);
 
@@ -51,7 +56,12 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     PendaftaranProviderBaruComponent,
     PromoComponent,
     KontakComponent,
-    KarirComponent
+    KarirComponent,
+    KonsultasiDokterComponent,
+    KlienBerhargaComponent,
+    ArtikelComponent,
+    ArtikelDetailComponent,
+
   ],
   imports: [
     BrowserModule,
