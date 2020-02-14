@@ -13,6 +13,7 @@ import {KonsultasiDokterComponent} from './konsultasi-dokter/konsultasi-dokter.c
 import {KlienBerhargaComponent} from './klien-berharga/klien-berharga.component';
 import {ArtikelComponent} from './artikel/artikel.component';
 import {ArtikelDetailComponent} from './artikel-detail/artikel-detail.component';
+import {PressReleaseComponent} from './press-release/press-release.component';
 
 
 
@@ -31,6 +32,7 @@ const routes: Routes = [
   { path: 'owlexa/klien-berharga', component: KlienBerhargaComponent},
   { path: 'owlexa/artikel', component: ArtikelComponent},
   { path: 'owlexa/artikel-detail', component: ArtikelDetailComponent},
+  { path: 'owlexa/press-release', component: PressReleaseComponent},
 
 
 ];
