@@ -31,6 +31,7 @@ import { KonsultasiDokterComponent } from './konsultasi-dokter/konsultasi-dokter
 import { KlienBerhargaComponent } from './klien-berharga/klien-berharga.component';
 import { ArtikelComponent } from './artikel/artikel.component';
 import { ArtikelDetailComponent } from './artikel-detail/artikel-detail.component';
+import { PressReleaseComponent } from './press-release/press-release.component';
 
 declare var $: any;
 console.log(`jQuery version: ${$.fn.jquery}`);
@@ -61,6 +62,7 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     KlienBerhargaComponent,
     ArtikelComponent,
     ArtikelDetailComponent,
+    PressReleaseComponent,
 
   ],
   imports: [
