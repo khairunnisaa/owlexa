@@ -1,9 +1,12 @@
 .btn{
   font-size: 1.75rem;
-  padding: 10px;
-  margin: 10px;
-}
+  padding: 13px;
+  margin-inside: 10px;
 
+}
+.save{
+  margin: 15px;
+}
 
 .border-image{
   border: 1px solid darkgrey;
