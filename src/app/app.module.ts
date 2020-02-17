@@ -32,6 +32,16 @@ import { KlienBerhargaComponent } from './klien-berharga/klien-berharga.componen
 import { ArtikelComponent } from './artikel/artikel.component';
 import { ArtikelDetailComponent } from './artikel-detail/artikel-detail.component';
 import { PressReleaseComponent } from './press-release/press-release.component';
+import { EventComponent } from './event/event.component';
+import { DetailKarirComponent } from './detail-karir/detail-karir.component';
+import { OCorporateHealthComponent } from './o-corporate-health/o-corporate-health.component';
+import { OThirdPartyAdministratorComponent } from './o-third-party-administrator/o-third-party-administrator.component';
+import { OOptimasiBpjsComponent } from './o-optimasi-bpjs/o-optimasi-bpjs.component';
+import { OSemiManagedCareComponent } from './o-semi-managed-care/o-semi-managed-care.component';
+import { OManagedCareComponent } from './o-managed-care/o-managed-care.component';
+import { OFrontEndTechnologyServiceComponent } from './o-front-end-technology-service/o-front-end-technology-service.component';
+import { LayananPendukungComponent } from './layanan-pendukung/layanan-pendukung.component';
+import { DaftarJaringanKesehatanComponent } from './daftar-jaringan-kesehatan/daftar-jaringan-kesehatan.component';
 
 declare var $: any;
 console.log(`jQuery version: ${$.fn.jquery}`);
@@ -63,6 +73,16 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     ArtikelComponent,
     ArtikelDetailComponent,
     PressReleaseComponent,
+    EventComponent,
+    DetailKarirComponent,
+    OCorporateHealthComponent,
+    OThirdPartyAdministratorComponent,
+    OOptimasiBpjsComponent,
+    OSemiManagedCareComponent,
+    OManagedCareComponent,
+    OFrontEndTechnologyServiceComponent,
+    LayananPendukungComponent,
+    DaftarJaringanKesehatanComponent,
 
   ],
   imports: [

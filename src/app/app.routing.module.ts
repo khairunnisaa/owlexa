@@ -14,6 +14,8 @@ import {KlienBerhargaComponent} from './klien-berharga/klien-berharga.component'
 import {ArtikelComponent} from './artikel/artikel.component';
 import {ArtikelDetailComponent} from './artikel-detail/artikel-detail.component';
 import {PressReleaseComponent} from './press-release/press-release.component';
+import {EventComponent} from './event/event.component';
+import {DetailKarirComponent} from './detail-karir/detail-karir.component';
 
 
 
@@ -33,6 +35,10 @@ const routes: Routes = [
   { path: 'owlexa/artikel', component: ArtikelComponent},
   { path: 'owlexa/artikel-detail', component: ArtikelDetailComponent},
   { path: 'owlexa/press-release', component: PressReleaseComponent},
+  { path: 'owlexa/klien-berharga', component: KlienBerhargaComponent},
+  { path: 'owlexa/event', component: EventComponent},
+  { path: 'owlexa/detail-karir', component: DetailKarirComponent},
+
 
 
 ];
