@@ -24,6 +24,7 @@ import {OOptimasiBpjsComponent} from './o-optimasi-bpjs/o-optimasi-bpjs.componen
 import {OSemiManagedCareComponent} from './o-semi-managed-care/o-semi-managed-care.component';
 import {OManagedCareComponent} from './o-managed-care/o-managed-care.component';
 import {OFrontEndTechnologyServiceComponent} from './o-front-end-technology-service/o-front-end-technology-service.component';
+import {DetailPromoComponent} from './detail-promo/detail-promo.component';
 
 // import {EventComponent} from './event/event.component';
 
@@ -56,7 +57,7 @@ const routes: Routes = [
   { path: 'owlexa/o-semi-managed-care', component: OSemiManagedCareComponent},
   { path: 'owlexa/o-managed-care', component: OManagedCareComponent},
   { path: 'owlexa/o-front-end-technology-service', component: OFrontEndTechnologyServiceComponent},
-
+  { path: 'owlexa/detail-promo', component: DetailPromoComponent},
 
 
 ];
