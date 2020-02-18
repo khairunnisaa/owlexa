@@ -42,6 +42,8 @@ import { OManagedCareComponent } from './o-managed-care/o-managed-care.component
 import { OFrontEndTechnologyServiceComponent } from './o-front-end-technology-service/o-front-end-technology-service.component';
 import { LayananPendukungComponent } from './layanan-pendukung/layanan-pendukung.component';
 import { DaftarJaringanKesehatanComponent } from './daftar-jaringan-kesehatan/daftar-jaringan-kesehatan.component';
+import { DetailPromoComponent } from './detail-promo/detail-promo.component';
+import { NavbarMobileComponent } from './navbar-mobile/navbar-mobile.component';
 
 declare var $: any;
 console.log(`jQuery version: ${$.fn.jquery}`);
@@ -83,6 +85,8 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     OFrontEndTechnologyServiceComponent,
     LayananPendukungComponent,
     DaftarJaringanKesehatanComponent,
+    DetailPromoComponent,
+    NavbarMobileComponent,
 
   ],
   imports: [
