@@ -43,6 +43,7 @@ import { OFrontEndTechnologyServiceComponent } from './o-front-end-technology-se
 import { LayananPendukungComponent } from './layanan-pendukung/layanan-pendukung.component';
 import { DaftarJaringanKesehatanComponent } from './daftar-jaringan-kesehatan/daftar-jaringan-kesehatan.component';
 import { DetailPromoComponent } from './detail-promo/detail-promo.component';
+import { NavbarMobileComponent } from './navbar-mobile/navbar-mobile.component';
 
 declare var $: any;
 console.log(`jQuery version: ${$.fn.jquery}`);
@@ -85,6 +86,7 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     LayananPendukungComponent,
     DaftarJaringanKesehatanComponent,
     DetailPromoComponent,
+    NavbarMobileComponent,
 
   ],
   imports: [
