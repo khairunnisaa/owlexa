@@ -1,31 +1,53 @@
-<ngb-carousel
-  [showNavigationIndicators]="false">
-  <ng-template ngbSlide>
-    <div class="picsum-img-wrapper">
-      <img src="assets/images/contact_center_crop.jpg" alt="Angular Carousel 1">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="true">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active"><!--data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"-->
+      <img src="assets/images/owlexa_medima_crop.jpg" alt="First slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Empowering your Healthcare</h1>
+          <p>Most reliable business partner in healthcare
+            with the best system, coordination, network,
+            and an around-the-clock client handling</p>
+        </div>
+      </div>
     </div>
-    <div class="carousel-caption">
-      <h3>Empowering your Healthcare</h3>
-      <p>Most reliable business partner in healthcare with the best system, coordination, network, and an around-the-clock client handling</p>
+    <div class="item"> <!--data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" -->
+      <img src="assets/images/contact_center_crop.jpg" alt="Second slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Empowering your Healthcare</h1>
+          <p>Most reliable business partner in healthcare
+            with the best system, coordination, network,
+            and an around-the-clock client handling</p>
+        </div>
+      </div>
     </div>
-  </ng-template>
-  <ng-template ngbSlide>
-    <div class="picsum-img-wrapper">
-      <img src="assets/images/vas_crop.jpg" alt="Angular Carousel 2">
+    <div class="item"><!--data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide"-->
+      <img src="assets/images/vas_crop.jpg"  alt="Third slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Empowering your Healthcare</h1>
+          <p>Most reliable business partner in healthcare
+            with the best system, coordination, network,
+            and an around-the-clock client handling</p>
+        </div>
+      </div>
     </div>
-    <div class="carousel-caption">
-      <h3>Empowering your Healthcare</h3>
-      <p>Most reliable business partner in healthcare with the best system, coordination, network, and an around-the-clock client handling</p>
-    </div>
-  </ng-template>
-  <ng-template ngbSlide>
-    <div class="picsum-img-wrapper">
-      <img src="assets/images/owlexa_medima_crop.jpg" alt="Angular Carousel 3">
-    </div>
-    <div class="carousel-caption">
-      <h3>Empowering your Healthcare</h3>
-      <p>Most reliable business partner in healthcare with the best system, coordination, network, and an around-the-clock client handling</p>
-    </div>
-  </ng-template>
-</ngb-carousel>
-
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" role="button"
+     data-slide="prev">
+    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+    <span class="sr-only fa fa-arrow-left">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button"
+     data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><!-- /.carousel -->
