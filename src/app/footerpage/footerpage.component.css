@@ -101,3 +101,16 @@ body{
   padding: 0;
   text-align: left;
 }
+
+#scroll-keranjang {
+  position: fixed;
+  top: 80%;
+  right: 5px;
+  width: 4%;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+#scroll-keranjang:hover {
+  opacity: 1;
+}
