@@ -25,6 +25,10 @@ import {OSemiManagedCareComponent} from './o-semi-managed-care/o-semi-managed-ca
 import {OManagedCareComponent} from './o-managed-care/o-managed-care.component';
 import {OFrontEndTechnologyServiceComponent} from './o-front-end-technology-service/o-front-end-technology-service.component';
 import {DetailPromoComponent} from './detail-promo/detail-promo.component';
+import {ChatComponent} from './chat/chat.component';
+import {SurveiOnlineProviderComponent} from './survei-online-provider/survei-online-provider.component';
+import {SurveiOnlineKorporasiComponent} from './survei-online-korporasi/survei-online-korporasi.component';
+import {SurveiOnlineMemberComponent} from './survei-online-member/survei-online-member.component';
 
 // import {EventComponent} from './event/event.component';
 
@@ -58,6 +62,10 @@ const routes: Routes = [
   { path: 'owlexa/o-managed-care', component: OManagedCareComponent},
   { path: 'owlexa/o-front-end-technology-service', component: OFrontEndTechnologyServiceComponent},
   { path: 'owlexa/detail-promo', component: DetailPromoComponent},
+  { path: 'owlexa/chat', component: ChatComponent},
+  { path: 'owlexa/survei-online-provider', component: SurveiOnlineProviderComponent},
+  { path: 'owlexa/survei-online-korporasi', component: SurveiOnlineKorporasiComponent},
+  { path: 'owlexa/survei-online-member', component: SurveiOnlineMemberComponent},
 
 
 ];

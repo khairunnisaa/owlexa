@@ -44,6 +44,11 @@ import { LayananPendukungComponent } from './layanan-pendukung/layanan-pendukung
 import { DaftarJaringanKesehatanComponent } from './daftar-jaringan-kesehatan/daftar-jaringan-kesehatan.component';
 import { DetailPromoComponent } from './detail-promo/detail-promo.component';
 import { NavbarMobileComponent } from './navbar-mobile/navbar-mobile.component';
+import { ChatComponent } from './chat/chat.component';
+import {CrudService} from './crud.service';
+import { SurveiOnlineProviderComponent } from './survei-online-provider/survei-online-provider.component';
+import { SurveiOnlineKorporasiComponent } from './survei-online-korporasi/survei-online-korporasi.component';
+import { SurveiOnlineMemberComponent } from './survei-online-member/survei-online-member.component';
 
 declare var $: any;
 console.log(`jQuery version: ${$.fn.jquery}`);
@@ -87,6 +92,10 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     DaftarJaringanKesehatanComponent,
     DetailPromoComponent,
     NavbarMobileComponent,
+    ChatComponent,
+    SurveiOnlineProviderComponent,
+    SurveiOnlineKorporasiComponent,
+    SurveiOnlineMemberComponent,
 
   ],
   imports: [
@@ -98,7 +107,7 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     NgxPageScrollCoreModule,
     NgxPageScrollModule
   ],
-  providers: [],
+  providers: [CrudService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
