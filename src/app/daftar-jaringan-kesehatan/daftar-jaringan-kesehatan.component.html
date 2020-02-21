@@ -53,50 +53,13 @@
                   <td><input type="text" name="name"></td>
                   <td><a class="btn btn-primary fa fa-search fa-4x"></a></td>
                 </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Klinik</td>
-                  <td>ABDI MULIA HR MUHAMMAD</td>
-                  <td>Jl. Mayjen HR. Muhammad No.401-403, Putat Gede, Suko Manunggal, Kota SBY, Jawa Timur 60226</td>
-                  <td>SURABAYA</td>
-                  <td>+62317317523</td>
-                  <td><a class="btn btn-primary fa fa-search fa-4x"></a></td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Klinik</td>
-                  <td>ABDI MULIA WISMA PERMAI BARAT</td>
-                  <td>Jl. Wisma Permai Barat III Blok FP No.12, Mulyorejo, Kota SBY, Jawa Timur 60226</td>
-                  <td>SURABAYA</td>
-                  <td>+62315944122</td>
-                  <td><a class="btn btn-primary fa fa-search fa-4x"></a></td>
-                </tr>
-
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Klinik</td>
-                  <td>ABDI MULIA HR MUHAMMAD</td>
-                  <td>Jl. Mayjen HR. Muhammad No.401-403, Putat Gede, Suko Manunggal, Kota SBY, Jawa Timur 60226</td>
-                  <td>SURABAYA</td>
-                  <td>+62317317523</td>
-                  <td><a class="btn btn-primary fa fa-search fa-4x"></a></td>
-                </tr>
-                <tr>
-                  <th scope="row">4</th>
-                  <td>Klinik</td>
-                  <td>ABDI MULIA HR MUHAMMAD</td>
-                  <td>Jl. Mayjen HR. Muhammad No.401-403, Putat Gede, Suko Manunggal, Kota SBY, Jawa Timur 60226</td>
-                  <td>SURABAYA</td>
-                  <td>+62317317523</td>
-                  <td><a class="btn btn-primary fa fa-search fa-4x"></a></td>
-                </tr>
-                <tr>
-                  <th scope="row">5</th>
-                  <td>Klinik</td>
-                  <td>ABDI MULIA HR MUHAMMAD</td>
-                  <td>Jl. Mayjen HR. Muhammad No.401-403, Putat Gede, Suko Manunggal, Kota SBY, Jawa Timur 60226</td>
-                  <td>SURABAYA</td>
-                  <td>+62317317523</td>
+                <tr *ngFor="let provider of providers">
+                  <th scope="row">{{provider.id}}</th>
+                  <td>{{provider.type}}</td>
+                  <td>{{provider.name}}</td>
+                  <td>{{provider.address}}</td>
+                  <td>{{provider.city}}</td>
+                  <td>{{provider.phoneNumber}}</td>
                   <td><a class="btn btn-primary fa fa-search fa-4x"></a></td>
                 </tr>
                 </tbody>
