@@ -1,0 +1,13 @@
+
+input[type=text], select, textarea,input[type=number]{
+  width: 100%;
+  padding: 17px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 1.55rem;
+}
+.btn{
+  font-size: 1.55em;
+}
+
