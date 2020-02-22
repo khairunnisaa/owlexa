@@ -5,106 +5,40 @@
 
   <!-- Page Heading/Breadcrumbs -->
   <h2 class="title custom">Kontak Kami</h2>
-
-  <!-- Content Row -->
-  <div class="row">
-    <!-- Map Column -->
-    <div class="col-lg-8 mb-4">
-      <!-- Embedded Google Map -->
-      <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3533.8291973973573!2d106.82221042815392!3d-6.1856696513418195!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6db11bb79ead5c0!2sPT.%20Aplikanusa%20Lintasarta!5e0!3m2!1sid!2sid!4v1581323067294!5m2!1sid!2sid"></iframe>
+  <div class="container">
+    <div style="text-align:center">
     </div>
-    <!-- Contact Details Column -->
-    <div class="col-lg-4 mb-4">
-      <h3>Alamat Kantor Kami</h3>
-      <p>
-        PT Aplikanusa Lintasarta
-        Menara Thamrin 18th Floor
-        Jl. MH Thamrin Kav. 3
-        <br>   Jakarta 10250, Indonesia
+    <div class="row">
+      <div class="column">
+        <iframe width="100%" height="270px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3533.8291973973573!2d106.82221042815392!3d-6.1856696513418195!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6db11bb79ead5c0!2sPT.%20Aplikanusa%20Lintasarta!5e0!3m2!1sid!2sid!4v1581323067294!5m2!1sid!2sid">
+        </iframe>
+        <label for="fname"><span class="fa fa-map-marker"></span>
+          PT Aplikanusa Lintasarta Menara <br>Thamrin 18th Floor
+          Jl. MH Thamrin Kav.3, Jakarta 10250, Indonesia</label>
         <br>
-      </p>
-      <p>
-        <abbr title="Phone">T</abbr>: +62 21 230 2345
-      </p>
-      <p>
-        <abbr title="Phone">F</abbr>: +62 21 304 98700
-      </p>
-      <p>
-        <abbr title="Email">E</abbr>:
-        <a href="sales.owlexa@lintasarta.co.id">sales.owlexa@lintasarta.co.id</a>
-      </p>
-      <p>
-        <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
-      </p>
+        <label for="fname"><span class="fa fa-phone"></span>
+          +62 21 230 2345</label><br>
+        <label for="fname"><span class="fa fa-fax"></span>
+          +62 21 304 98700</label><br>
+        <label for="fname"><span class="fa fa-envelope-o"></span>
+          <a href="sales.owlexa@lintasarta.co.id"> sales.owlexa@lintasarta.co.id</a></label>
+      </div>
 
-      <h3>Call Center</h3>
-      <p></p>
-      <p>
-        <abbr title="Phone">T</abbr>: +62 21 298 30400
-      </p>
-      <p>
-        <abbr title="Email">E</abbr>:
-        <a href="cc.owlexa@lintasarta.co.id">cc.owlexa@lintasarta.co.id</a>
-      </p>
-      <p>
-        <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
-      </p>
-
-      <h3>Customer Care</h3>
-      <p></p>
-      <p>
-        <abbr title="Phone">T</abbr>: +62 21 230 3108
-      </p>
-      <p>
-        <abbr title="Email">E</abbr>:
-        <a href="customercare@owlexa.co.id">customercare@owlexa.co.id</a>
-      </p>
-      <p>
-        <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
-      </p>
-
+      <div class="column">
+        <form action="">
+          <label for="fname">Nama Lengkap</label>
+          <input type="text" id="fname" name="nama_lengkap" placeholder="Nama Lengkap">
+          <label for="lname">Nomer Telphone</label>
+          <input type="number" id="lname" name="nomer_telphone" placeholder="Nomer Telphone">
+          <label for="lname">E-mail</label>
+          <input type="email" id="lname" name="nomer_telphone" placeholder="E-mail">
+          <label for="subject">Pertanyaan</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+          <input type="submit" value="KIRIM">
+        </form>
+      </div>
     </div>
-  </div>
-  <!-- /.row -->
-
-  <!-- Contact Form -->
-  <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-  <div class="row">
-    <div class="col-lg-8 mb-4">
-      <h3>Send us a Message</h3>
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="control-group form-group">
-          <div class="controls">
-            <label>Full Name:</label>
-            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-            <p class="help-block"></p>
-          </div>
-        </div>
-        <div class="control-group form-group">
-          <div class="controls">
-            <label>Phone Number:</label>
-            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-          </div>
-        </div>
-        <div class="control-group form-group">
-          <div class="controls">
-            <label>Email Address:</label>
-            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-          </div>
-        </div>
-        <div class="control-group form-group">
-          <div class="controls">
-            <label>Message:</label>
-            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-          </div>
-        </div>
-        <div id="success"></div>
-        <!-- For success/fail messages -->
-        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
-      </form>
-    </div>
-
   </div>
 </div>
 <div class="mb60 mb50-sm"></div>
