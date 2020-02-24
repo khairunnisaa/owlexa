@@ -1,18 +1,59 @@
-#orgChartId .org-chart-entity-border {
-  border-left: 1px solid green;
-  border-top: 1px solid green;
+/*#orgChartId.org-chart-entity-border {*/
+/*  border-left: 1px solid green;*/
+/*  border-top: 1px solid green;*/
 
+/*}*/
+
+/*#orgChartId.org-chart-entity-connector {*/
+/*  height: 2em;*/
+/*}*/
+
+/*#orgChartId.org-chart-entity-box {*/
+/*  align-items: center;*/
+/*  border: 2px solid blue;*/
+/*  background-color: blue;*/
+/*  border-radius: 3px;*/
+/*  box-shadow: 0 .5rem 1rem #777!important;*/
+/*}*/
+
+/*#orgChartId.image{*/
+/*  width: 50px;*/
+/*  height: 50px;*/
+/*}*/
+
+
+ngx-org-image {
+  background-repeat: no-repeat;
+  width: 2em;
+  height: 2em;
+  margin-right: 0.5em;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.25em;
 }
-
-#orgChartId .org-chart-entity-connector {
-  height: 7em;
+.ngx-org-name {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-#orgChartId .org-chart-entity-box {
-  align-items: center;
-  border: 1px solid blue;
-  background-color: blue;
-  border-radius: 3px;
-  box-shadow: 0 .5rem 1rem #777!important;
+.ngx-org-title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+.ngx-org-horizontal {
+  padding: 1em 0;
+}
+.ngx-org-vertical {
+  padding: 0 1em;
+}
+.ngx-org-border {
+  border: 1px solid darkgrey;
+}
+.ngx-org-box {
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  box-shadow: 0.05em 0.05em 0.2em 0.05em #0000002b;
+}
+.ngx-org-connector-horizontal {
+  width: 1em;
+}
+.ngx-org-connector-vertical {
+  height: 1em;
+}

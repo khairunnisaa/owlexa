@@ -4,6 +4,7 @@ import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { OrgChartModule } from 'angular-org-chart';
 import { NgxOrgChartModule } from 'ngx-org-chart';
+// import { OrgChartModule } from 'ng2-org-chart';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';

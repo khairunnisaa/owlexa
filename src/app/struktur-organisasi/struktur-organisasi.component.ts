@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OrgData } from 'angular-org-chart/src/app/modules/org-chart/orgData';
+// import { IEmployee } from 'ng2-org-chart';
 
 @Component({
   selector: 'app-struktur-organisasi',
@@ -7,38 +8,190 @@ import { OrgData } from 'angular-org-chart/src/app/modules/org-chart/orgData';
   styleUrls: ['./struktur-organisasi.component.css']
 })
 export class StrukturOrganisasiComponent implements OnInit {
-  orgData: OrgData= {
-    name: "Arya Damar",
-    type: 'President Director',
-    children: [
-      {
-        name: "Yosi Widhayanti",
-        type: 'General Manager of E-Health Strategic Business Unit',
-        children: [ ]
-      },
-      {
-        name: "Tri Rahayu",
-        type: 'Operation Manager',
-        children: [ ]
-      },
+  nodes: any = [
+    {
+      name: 'Sundar Pichai',
+      cssClass: 'ngx-org-ceo',
+      image: 'assets/images/svg/eye.svg',
+      title: 'Chief Executive Officer',
+      childs: [
+        {
+          name: 'Thomas Kurian',
+          cssClass: 'ngx-org-ceo',
+          image: 'assets/node.svg',
+          title: 'CEO, Google Cloud',
+        },
+        {
+          name: 'Susan Wojcicki',
+          cssClass: 'ngx-org-ceo',
+          image: 'assets/node.svg',
+          title: 'CEO, YouTube',
+          childs: [
+            {
+              name: 'Beau Avril',
+              cssClass: 'ngx-org-head',
+              image: 'assets/node.svg',
+              title: 'Global Head of Business Operations',
+              childs: []
+            },
+            {
+              name: 'Tara Walpert Levy',
+              cssClass: 'ngx-org-vp',
+              image: 'assets/node.svg',
+              title: 'VP, Agency and Brand Solutions',
+              childs: []
+            },
+            {
+              name: 'Ariel Bardin',
+              cssClass: 'ngx-org-vp',
+              image: 'assets/node.svg',
+              title: 'VP, Product Management',
+              childs: []
+            }
+          ]
+        },
+        {
+          name: 'Jeff Dean',
+          cssClass: 'ngx-org-head',
+          image: 'assets/node.svg',
+          title: 'Head of Artificial Intelligence',
+          childs: [
+            {
+              name: 'David Feinberg',
+              cssClass: 'ngx-org-ceo',
+              image: 'assets/node.svg',
+              title: 'CEO, Google Health',
+              childs: []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Sundar Pichai',
+      cssClass: 'ngx-org-ceo',
+      image: 'assets/node.svg',
+      title: 'Chief Executive Officer',
+      childs: [
+        {
+          name: 'Thomas Kurian',
+          cssClass: 'ngx-org-ceo',
+          image: 'assets/node.svg',
+          title: 'CEO, Google Cloud',
+        },
+        {
+          name: 'Susan Wojcicki',
+          cssClass: 'ngx-org-ceo',
+          image: 'assets/node.svg',
+          title: 'CEO, YouTube',
+          childs: [
+            {
+              name: 'Beau Avril',
+              cssClass: 'ngx-org-head',
+              image: 'assets/node.svg',
+              title: 'Global Head of Business Operations',
+              childs: []
+            },
+            {
+              name: 'Tara Walpert Levy',
+              cssClass: 'ngx-org-vp',
+              image: 'assets/node.svg',
+              title: 'VP, Agency and Brand Solutions',
+              childs: []
+            },
+            {
+              name: 'Ariel Bardin',
+              cssClass: 'ngx-org-vp',
+              image: 'assets/node.svg',
+              title: 'VP, Product Management',
+              childs: []
+            }
+          ]
+        },
+        {
+          name: 'Jeff Dean',
+          cssClass: 'ngx-org-head',
+          image: 'assets/node.svg',
+          title: 'Head of Artificial Intelligence',
+          childs: [
+            {
+              name: 'David Feinberg',
+              cssClass: 'ngx-org-ceo',
+              image: 'assets/node.svg',
+              title: 'CEO, Google Health',
+              childs: []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Sundar Pichai',
+      cssClass: 'ngx-org-ceo',
+      image: 'assets/node.svg',
+      title: 'Chief Executive Officer',
+      childs: [
+        {
+          name: 'Thomas Kurian',
+          cssClass: 'ngx-org-ceo',
+          image: 'assets/node.svg',
+          title: 'CEO, Google Cloud',
+        },
+        {
+          name: 'Susan Wojcicki',
+          cssClass: 'ngx-org-ceo',
+          image: 'assets/node.svg',
+          title: 'CEO, YouTube',
+          childs: [
+            {
+              name: 'Beau Avril',
+              cssClass: 'ngx-org-head',
+              image: 'assets/node.svg',
+              title: 'Global Head of Business Operations',
+              childs: []
+            },
+            {
+              name: 'Tara Walpert Levy',
+              cssClass: 'ngx-org-vp',
+              image: 'assets/node.svg',
+              title: 'VP, Agency and Brand Solutions',
+              childs: []
+            },
+            {
+              name: 'Ariel Bardin',
+              cssClass: 'ngx-org-vp',
+              image: 'assets/node.svg',
+              title: 'VP, Product Management',
+              childs: []
+            }
+          ]
+        },
+        {
+          name: 'Jeff Dean',
+          cssClass: 'ngx-org-head',
+          image: 'assets/node.svg',
+          title: 'Head of Artificial Intelligence',
+          childs: [
+            {
+              name: 'David Feinberg',
+              cssClass: 'ngx-org-ceo',
+              image: 'assets/node.svg',
+              title: 'CEO, Google Health',
+              childs: []
+            }
+          ]
+        }
+      ]
+    }
+  ];
 
-      {
-        name: "Angga Priyo Riyanto",
-        type: 'Senior Manager IT & Infrastructure',
-        children: []
-      },
-
-      {
-        name: "Elvira Sofiyanti",
-        type: 'Provider Relation Manager',
-        children: []
-      }
-    ]
-  };
 
 constructor() { }
 
   ngOnInit() {
   }
 
+  test(event){
+
+  }
 }
