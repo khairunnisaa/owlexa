@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { OrgChartModule } from 'angular-org-chart';
+import { NgxOrgChartModule } from 'ngx-org-chart';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
@@ -99,6 +101,7 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     SurveiOnlineMemberComponent,
     NavbarFixedTopComponent,
 
+
   ],
   imports: [
     BrowserModule,
@@ -107,7 +110,9 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     HttpClientModule,
     NgbModule,
     NgxPageScrollCoreModule,
-    NgxPageScrollModule
+    NgxPageScrollModule,
+    OrgChartModule,
+    NgxOrgChartModule
   ],
   providers: [CrudService],
   bootstrap: [AppComponent]

@@ -8,6 +8,7 @@ import {catchError} from 'rxjs/operators';
 })
 export class CrudService {
   apiUrlProvider : string = 'http://localhost:8080/api/provider/';
+  apiUrlProviderBaru : string = 'http://localhost:8080/api/provider/detail';
   apiUrlNews : string = 'http://localhost:8080/api/news';
   apiUrlArticel : string = 'http://localhost:8080/api/article';
   headers = new HttpHeaders().set('Content-Type', 'application/json');
@@ -15,11 +16,20 @@ export class CrudService {
 
   //create provider
   createProvider(data) : Observable<any> {
-    let API_URL =   `${this.apiUrlProvider}/`;
+    let API_URL =   `${this.apiUrlProviderBaru}/`;
     return this.http.post(API_URL, data)
       .pipe(
         catchError(this.error)
       )
+  }
+  //upload file
+  uploadFileProvider(formProvider){
+    console.log("ayeee kapten",formProvider)
+    let API_URL =   `${this.apiUrlProviderBaru}/uploadFile`;
+    return this.http.post<any>(API_URL,formProvider,{
+      reportProgress :true,
+      observe:'events'
+    })
   }
 
   error(error: HttpErrorResponse){
