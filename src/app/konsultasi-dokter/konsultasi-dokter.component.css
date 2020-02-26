@@ -24,3 +24,11 @@ textarea {
 .checked{
   color: #0d9dff;
 }
+.info-penanya{
+  padding:2px;
+  color: #0d9dff;
+}
+.avatar{
+  max-height: 30px;
+  max-width: 30px;
+}

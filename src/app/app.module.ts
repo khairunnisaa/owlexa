@@ -53,6 +53,7 @@ import { SurveiOnlineProviderComponent } from './survei-online-provider/survei-o
 import { SurveiOnlineKorporasiComponent } from './survei-online-korporasi/survei-online-korporasi.component';
 import { SurveiOnlineMemberComponent } from './survei-online-member/survei-online-member.component';
 import { NavbarFixedTopComponent } from './navbar-fixed-top/navbar-fixed-top.component';
+import { LoginComponent } from './login/login.component';
 
 declare var $: any;
 console.log(`jQuery version: ${$.fn.jquery}`);
@@ -101,6 +102,7 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     SurveiOnlineKorporasiComponent,
     SurveiOnlineMemberComponent,
     NavbarFixedTopComponent,
+    LoginComponent,
 
 
   ],

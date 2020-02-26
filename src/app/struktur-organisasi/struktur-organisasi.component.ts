@@ -1,188 +1,46 @@
 import { Component, OnInit } from '@angular/core';
-import { OrgData } from 'angular-org-chart/src/app/modules/org-chart/orgData';
+// import { OrgData } from 'angular-org-chart/src/app/modules/org-chart/orgData';
 // import { IEmployee } from 'ng2-org-chart';
 
 @Component({
   selector: 'app-struktur-organisasi',
   templateUrl: './struktur-organisasi.component.html',
-  styleUrls: ['./struktur-organisasi.component.css']
+  styleUrls: ['./struktur-organisasi.component.scss']
 })
 export class StrukturOrganisasiComponent implements OnInit {
   nodes: any = [
     {
-      name: 'Sundar Pichai',
-      cssClass: 'ngx-org-ceo',
+      name: 'Arya Damar',
+      cssClass: 'directur',
       image: 'assets/images/svg/eye.svg',
-      title: 'Chief Executive Officer',
+      title: 'President Directur',
       childs: [
         {
-          name: 'Thomas Kurian',
-          cssClass: 'ngx-org-ceo',
-          image: 'assets/node.svg',
-          title: 'CEO, Google Cloud',
+          name: 'Yosi Widhayanti',
+          cssClass: 'manager',
+          image: 'assets/images/svg/eye.svg',
+          title: 'General Manager of E-Health Strategic Business Unit',
         },
         {
-          name: 'Susan Wojcicki',
-          cssClass: 'ngx-org-ceo',
-          image: 'assets/node.svg',
-          title: 'CEO, YouTube',
-          childs: [
-            {
-              name: 'Beau Avril',
-              cssClass: 'ngx-org-head',
-              image: 'assets/node.svg',
-              title: 'Global Head of Business Operations',
-              childs: []
-            },
-            {
-              name: 'Tara Walpert Levy',
-              cssClass: 'ngx-org-vp',
-              image: 'assets/node.svg',
-              title: 'VP, Agency and Brand Solutions',
-              childs: []
-            },
-            {
-              name: 'Ariel Bardin',
-              cssClass: 'ngx-org-vp',
-              image: 'assets/node.svg',
-              title: 'VP, Product Management',
-              childs: []
-            }
-          ]
+          name: 'Tri Rahayu',
+          cssClass: 'manager',
+          image: 'assets/images/svg/eye.svg',
+          title: 'Operation Manager',
         },
         {
-          name: 'Jeff Dean',
-          cssClass: 'ngx-org-head',
-          image: 'assets/node.svg',
-          title: 'Head of Artificial Intelligence',
-          childs: [
-            {
-              name: 'David Feinberg',
-              cssClass: 'ngx-org-ceo',
-              image: 'assets/node.svg',
-              title: 'CEO, Google Health',
-              childs: []
-            }
-          ]
+          name: 'Elvira Sofiyanti',
+          cssClass: 'manager',
+          image: 'assets/images/svg/eye.svg',
+          title: 'Provider Relation Manager',
+        },
+        {
+          name: 'Angga Priyo Riyanto',
+          cssClass: 'manager',
+          image: 'assets/images/svg/eye.svg',
+          title: 'Senior Manager IT & Infrastructure',
         }
       ]
     },
-    {
-      name: 'Sundar Pichai',
-      cssClass: 'ngx-org-ceo',
-      image: 'assets/node.svg',
-      title: 'Chief Executive Officer',
-      childs: [
-        {
-          name: 'Thomas Kurian',
-          cssClass: 'ngx-org-ceo',
-          image: 'assets/node.svg',
-          title: 'CEO, Google Cloud',
-        },
-        {
-          name: 'Susan Wojcicki',
-          cssClass: 'ngx-org-ceo',
-          image: 'assets/node.svg',
-          title: 'CEO, YouTube',
-          childs: [
-            {
-              name: 'Beau Avril',
-              cssClass: 'ngx-org-head',
-              image: 'assets/node.svg',
-              title: 'Global Head of Business Operations',
-              childs: []
-            },
-            {
-              name: 'Tara Walpert Levy',
-              cssClass: 'ngx-org-vp',
-              image: 'assets/node.svg',
-              title: 'VP, Agency and Brand Solutions',
-              childs: []
-            },
-            {
-              name: 'Ariel Bardin',
-              cssClass: 'ngx-org-vp',
-              image: 'assets/node.svg',
-              title: 'VP, Product Management',
-              childs: []
-            }
-          ]
-        },
-        {
-          name: 'Jeff Dean',
-          cssClass: 'ngx-org-head',
-          image: 'assets/node.svg',
-          title: 'Head of Artificial Intelligence',
-          childs: [
-            {
-              name: 'David Feinberg',
-              cssClass: 'ngx-org-ceo',
-              image: 'assets/node.svg',
-              title: 'CEO, Google Health',
-              childs: []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Sundar Pichai',
-      cssClass: 'ngx-org-ceo',
-      image: 'assets/node.svg',
-      title: 'Chief Executive Officer',
-      childs: [
-        {
-          name: 'Thomas Kurian',
-          cssClass: 'ngx-org-ceo',
-          image: 'assets/node.svg',
-          title: 'CEO, Google Cloud',
-        },
-        {
-          name: 'Susan Wojcicki',
-          cssClass: 'ngx-org-ceo',
-          image: 'assets/node.svg',
-          title: 'CEO, YouTube',
-          childs: [
-            {
-              name: 'Beau Avril',
-              cssClass: 'ngx-org-head',
-              image: 'assets/node.svg',
-              title: 'Global Head of Business Operations',
-              childs: []
-            },
-            {
-              name: 'Tara Walpert Levy',
-              cssClass: 'ngx-org-vp',
-              image: 'assets/node.svg',
-              title: 'VP, Agency and Brand Solutions',
-              childs: []
-            },
-            {
-              name: 'Ariel Bardin',
-              cssClass: 'ngx-org-vp',
-              image: 'assets/node.svg',
-              title: 'VP, Product Management',
-              childs: []
-            }
-          ]
-        },
-        {
-          name: 'Jeff Dean',
-          cssClass: 'ngx-org-head',
-          image: 'assets/node.svg',
-          title: 'Head of Artificial Intelligence',
-          childs: [
-            {
-              name: 'David Feinberg',
-              cssClass: 'ngx-org-ceo',
-              image: 'assets/node.svg',
-              title: 'CEO, Google Health',
-              childs: []
-            }
-          ]
-        }
-      ]
-    }
   ];
 
 
