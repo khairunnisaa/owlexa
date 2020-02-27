@@ -4,6 +4,7 @@ import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { OrgChartModule } from 'angular-org-chart';
 import { NgxOrgChartModule } from 'ngx-org-chart';
+// import { OrgChartModule } from 'ng2-org-chart';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
@@ -52,6 +53,7 @@ import { SurveiOnlineProviderComponent } from './survei-online-provider/survei-o
 import { SurveiOnlineKorporasiComponent } from './survei-online-korporasi/survei-online-korporasi.component';
 import { SurveiOnlineMemberComponent } from './survei-online-member/survei-online-member.component';
 import { NavbarFixedTopComponent } from './navbar-fixed-top/navbar-fixed-top.component';
+import { LoginComponent } from './login/login.component';
 
 declare var $: any;
 console.log(`jQuery version: ${$.fn.jquery}`);
@@ -100,6 +102,7 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     SurveiOnlineKorporasiComponent,
     SurveiOnlineMemberComponent,
     NavbarFixedTopComponent,
+    LoginComponent,
 
 
   ],

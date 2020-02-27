@@ -29,6 +29,7 @@ import {ChatComponent} from './chat/chat.component';
 import {SurveiOnlineProviderComponent} from './survei-online-provider/survei-online-provider.component';
 import {SurveiOnlineKorporasiComponent} from './survei-online-korporasi/survei-online-korporasi.component';
 import {SurveiOnlineMemberComponent} from './survei-online-member/survei-online-member.component';
+import {LoginComponent} from './login/login.component';
 
 // import {EventComponent} from './event/event.component';
 
@@ -66,6 +67,7 @@ const routes: Routes = [
   { path: 'owlexa/survei-online-provider', component: SurveiOnlineProviderComponent},
   { path: 'owlexa/survei-online-korporasi', component: SurveiOnlineKorporasiComponent},
   { path: 'owlexa/survei-online-member', component: SurveiOnlineMemberComponent},
+  { path: 'owlexa/login', component: LoginComponent},
 
 
 ];
