@@ -5,7 +5,11 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { OrgChartModule } from 'angular-org-chart';
 import { NgxOrgChartModule } from 'ngx-org-chart';
 // import { OrgChartModule } from 'ng2-org-chart';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
+import { ModalComponent } from './modal/modal.component';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
 import { HomeComponent } from './home/home.component';
@@ -103,7 +107,7 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     SurveiOnlineMemberComponent,
     NavbarFixedTopComponent,
     LoginComponent,
-
+    ModalComponent
 
   ],
   imports: [
@@ -115,9 +119,13 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     NgxPageScrollCoreModule,
     NgxPageScrollModule,
     OrgChartModule,
-    NgxOrgChartModule
+    NgxOrgChartModule,
+    MatButtonModule,
+    MatDialogModule,
+    BrowserAnimationsModule,
   ],
   providers: [CrudService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [ModalComponent]
 })
 export class AppModule { }

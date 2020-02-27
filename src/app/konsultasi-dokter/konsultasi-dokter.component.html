@@ -61,7 +61,7 @@
         <textarea style="width: auto; height: 100px" placeholder="Tulis Pertanyaan Anda"></textarea>
         <hr>
         <div class="card-body">
-          <p class="card-text text-muted"><i>Postingan membutuhkan waktu beberapa saat untuk tampil</i><a href="#" class="btn btn-success" id="btn-kiri">Kirim</a></p>
+          <p class="card-text text-muted"><i>Postingan membutuhkan waktu beberapa saat untuk tampil</i><button class="btn btn-primary" id="btn-kiri" (click)="openModal()">Kirim</button></p>
         </div>
         <div class="card-footer text-muted">
           maks. 500 karakter
@@ -117,5 +117,8 @@
 
 </div>
 <div class="mb60 mb50-sm"></div>
-
+<main id="logout-button-holder">
+  <button mat-raised-button id="logout-button" (click)="openModal()">Logout</button>
+  <button mat-raised-button id="delete-product-button" (click)="openModal()">Delete Product</button>
+</main>
 <app-footerpage></app-footerpage>
