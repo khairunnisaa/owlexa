@@ -79,8 +79,8 @@ constructor(public matDialog: MatDialog) { }
     // The user can't close the dialog by clicking outside its body
     dialogConfig.disableClose = true;
     dialogConfig.id = "modal-component";
-    dialogConfig.height = "3500px";
-    dialogConfig.width = "6000px";
+    dialogConfig.height = "350px";
+    dialogConfig.width = "600px";
     dialogConfig.data = {
       name : event.name,
       jabatan : event.title,
