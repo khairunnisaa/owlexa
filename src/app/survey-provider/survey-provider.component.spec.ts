@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SurveiOnlineMemberComponent } from './survei-online-member.component';
+import { SurveyProviderComponent } from './survey-provider.component';
 
-describe('SurveiOnlineMemberComponent', () => {
-  let component: SurveiOnlineMemberComponent;
-  let fixture: ComponentFixture<SurveiOnlineMemberComponent>;
+describe('SurveyProviderComponent', () => {
+  let component: SurveyProviderComponent;
+  let fixture: ComponentFixture<SurveyProviderComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SurveiOnlineMemberComponent ]
+      declarations: [ SurveyProviderComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SurveiOnlineMemberComponent);
+    fixture = TestBed.createComponent(SurveyProviderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
