@@ -53,11 +53,14 @@ import { DetailPromoComponent } from './detail-promo/detail-promo.component';
 import { NavbarMobileComponent } from './navbar-mobile/navbar-mobile.component';
 import { ChatComponent } from './chat/chat.component';
 import {CrudService} from './crud.service';
-import { SurveiOnlineProviderComponent } from './survei-online-provider/survei-online-provider.component';
-import { SurveiOnlineKorporasiComponent } from './survei-online-korporasi/survei-online-korporasi.component';
-import { SurveiOnlineMemberComponent } from './survei-online-member/survei-online-member.component';
 import { NavbarFixedTopComponent } from './navbar-fixed-top/navbar-fixed-top.component';
 import { LoginComponent } from './login/login.component';
+import { InformationHomeComponent } from './information-home/information-home.component';
+import { InformationProductOwlexaComponent } from './information-product-owlexa/information-product-owlexa.component';
+import { SurveyProviderComponent } from './survey-provider/survey-provider.component';
+import { SurveyMemberComponent } from './survey-member/survey-member.component';
+import { SurveyKorporasiComponent } from './survey-korporasi/survey-korporasi.component';
+
 
 declare var $: any;
 console.log(`jQuery version: ${$.fn.jquery}`);
@@ -102,12 +105,15 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     DetailPromoComponent,
     NavbarMobileComponent,
     ChatComponent,
-    SurveiOnlineProviderComponent,
-    SurveiOnlineKorporasiComponent,
-    SurveiOnlineMemberComponent,
     NavbarFixedTopComponent,
     LoginComponent,
-    ModalComponent
+    ModalComponent,
+    InformationHomeComponent,
+    InformationProductOwlexaComponent,
+    SurveyProviderComponent,
+    SurveyMemberComponent,
+    SurveyKorporasiComponent,
+
 
   ],
   imports: [
