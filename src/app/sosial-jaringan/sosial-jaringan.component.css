@@ -1,0 +1,77 @@
+#scroll-whatsapp {
+  position: fixed;
+  top: 80%;
+  right: 5px;
+  width: 4%;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+#scroll-whatsapp:hover {
+  opacity: 90;
+}
+
+#scroll-instagram {
+  position: fixed;
+  top: 70%;
+  right: 5px;
+  width: 4%;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+#scroll-instagram:hover {
+  opacity: 90;
+}
+
+#scroll-twiter {
+  position: fixed;
+  top: 60%;
+  right: 5px;
+  width: 4%;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+#scroll-twiter:hover {
+  opacity: 90;
+}
+
+#scroll-lingked {
+  position: fixed;
+  top: 50%;
+  right: 5px;
+  width: 4%;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+#scroll-lingked:hover {
+  opacity: 90;
+}
+
+#scroll-facebook {
+  position: fixed;
+  top: 40%;
+  right: 5px;
+  width: 4%;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+#scroll-facebook:hover {
+  opacity: 90;
+}
+
+#scroll-google{
+  position: fixed;
+  top: 30%;
+  right: 5px;
+  width: 4%;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+#scroll-google:hover {
+  opacity: 90;
+}

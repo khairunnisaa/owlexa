@@ -60,6 +60,7 @@ import { InformationProductOwlexaComponent } from './information-product-owlexa/
 import { SurveyProviderComponent } from './survey-provider/survey-provider.component';
 import { SurveyMemberComponent } from './survey-member/survey-member.component';
 import { SurveyKorporasiComponent } from './survey-korporasi/survey-korporasi.component';
+import { SosialJaringanComponent } from './sosial-jaringan/sosial-jaringan.component';
 
 
 declare var $: any;
@@ -113,6 +114,7 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     SurveyProviderComponent,
     SurveyMemberComponent,
     SurveyKorporasiComponent,
+    SosialJaringanComponent,
 
 
   ],
