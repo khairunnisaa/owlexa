@@ -28,7 +28,7 @@
     "angular-org-chart": "^1.0.3",
     "bootstrap": "^4.4.1",
     "hammerjs": "^2.0.8",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ng2-org-chart": "^1.1.2",
     "ngx-i18nsupport": "^0.17.1",
     "ngx-org-chart": "^1.1.0",
